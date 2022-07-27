@@ -5,7 +5,7 @@
 body {
 
 
-  background-image:linear-gradient(180deg, #131317 -60.19%, rgba(65, 66, 99, 0.09) 100%),url('../public/joseph-pearson-jxgJUpL-SQg-unsplash-min.png');
+  background-image:linear-gradient(180deg, #131317 -60.19%, rgba(65, 66, 99, 0.09) 100%),url('/joseph-pearson-jxgJUpL-SQg-unsplash-min.png');
 
   background-size: 1920px 1080px;
 
@@ -187,7 +187,7 @@ nav a {
   font-size: 16px;
   color: #FFFFFF;
   background-color: transparent;
-  background-image: url('../public/Accommodation.svg');
+  background-image: url('/Accommodation.svg');
   background-repeat: no-repeat;
   background-position: 19.5px 24.65px;
   box-sizing: border-box;
@@ -247,7 +247,7 @@ select option{
 }
 
 .bookingform select.form-control+.select-arrow:after {
-  content: url('../public/downarrow.svg');
+  content: url('/downarrow.svg');
   display: block;
 
   color: #333;
@@ -258,7 +258,7 @@ select option{
   font-size: 16px;
   color: #FFFFFF;
   background-color: transparent;
-  background-image: url('../public/checkin.svg');
+  background-image: url('/checkin.svg');
   background-repeat: no-repeat;
   background-position: 19.5px 24.65px;
   box-sizing: border-box;
@@ -322,7 +322,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-size: 16px;
   color: #FFFFFF;
   background-color: transparent;
-  background-image: url('../public/guests.svg');
+  background-image: url('/guests.svg');
   background-repeat: no-repeat;
   background-position: 19.5px 24.65px;
   box-sizing: border-box;
@@ -359,7 +359,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 }
 .bookingform select.form-control3+.select-arrow3:after {
-  content: url('../public/downarrow.svg');
+  content: url('/downarrow.svg');
   display: block;
 
   color: #333;
