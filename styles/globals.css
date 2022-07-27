@@ -1,26 +1,401 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('http://fonts.cdnfonts.com/css/sf-pro-display');
 
+
+
+body {
+
+
+  background-image:linear-gradient(180deg, #131317 -60.19%, rgba(65, 66, 99, 0.09) 100%),url('../public/joseph-pearson-jxgJUpL-SQg-unsplash-min.png');
+
+  background-size: 1920px 1080px;
+
+
+}
 a {
-  color: inherit;
+  color: #FFFFFF;
   text-decoration: none;
 }
+.content {
 
-* {
-  box-sizing: border-box;
+}
+header {
+  max-width: 1440px;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: space-between;
+
+}
+header hr {
+  height: 1px;
+  border-width: 0px;
+  background: rgba(231, 231, 242, 0.4);
+
+
+
+}
+.glass {
+  height: 20.31399917602539px;
+  width: 20.31399917602539px;
+  margin-top: 0px;
+
+}
+nav {
+
+
+
+}
+nav a {
+
+  margin-right: 60px;
+
+
+}
+.navbar{
+  margin-top: 45px;
+  margin-bottom: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+.about{
+  font-family: 'SF Pro Display Thin';
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: flex;
+  text-align: left;
+}
+.camping {
+  display: flex;
+  text-align: center;
+  font-family: 'SF Pro Display Black';
+  font-size: 24px;
+  line-height: 29px;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.signup{
+  font-family: 'SF Pro Display Thin';
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  display: flex;
+  text-align: justify;
+
+
+}
+
+.england {
+  position: absolute;
+  width: 860px;
+  height: 212px;
+  left: 240px;
+  top: 259px;
+  font-family: 'SF Pro Display Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 106px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+.england2 {
+  position: absolute;
+  width: 860px;
+  height: 84px;
+  left: 240px;
+  top: 503px;
+  font-family: 'SF Pro Display Thin';
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+.container{
+  position: absolute;
+  width: 570px;
+  height: 400px;
+  left: 1350px;
+  top: 314px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
+  border-radius: 16px 0px 0px 16px;
+}
+.mountains{
+  position: absolute;
+  width: 270px;
+  height: 400px;
+  left: 300px;
+  top: 0px;
+
+}
+
+.upnext {
+  font-family: 'SF Pro Display Regular';
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.5;
+  margin-left: 36px;
+  margin-top: 28px;
+}
+
+.england3 {
+
+  font-family: 'SF Pro Display Regular';
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+  margin-left: 36px;
+
+}
+.arrow{
+  margin-top: 50px;
+  margin-left: 36px;
+}
+.formcontainer{
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 81.39%;
+  bottom: 0%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(70px);
+  border-radius: 20px 20px 0px 0px;
+}
+.book
+{
+  font-family: 'SF Pro Display Regular';
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+  margin-top: 18px;
+  margin-left: 48px;
+}
+.bookingform{
+
+  display: flex;
+
+
+
+}
+.bookingform .form-control{
+  font-family: 'SF Pro Display Regular';
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: url('../public/Accommodation.svg');
+  background-repeat: no-repeat;
+  background-position: 19.5px 24.65px;
+  box-sizing: border-box;
+  width: 463px;
+  height: 72px;
+  border-radius: 10px 0px 0 10px;
+  border: 1px solid rgba(231, 231, 242, 0.3);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  margin-left: 48px;
+  margin-top: 14px;
+  padding: 37px 0px 15px 60px;
+}
+select option{
+
+  background: gray;
+}
+.bookingform .form-control:focus {
+
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.bookingform select.form-control {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.bookingform .form-control::-webkit-input-placeholder {
+  color: rgba(51, 51, 51, 0.3);
+}
+
+.bookingform .form-control:-ms-input-placeholder {
+  color: rgba(51, 51, 51, 0.3);
+}
+
+.bookingform .form-label {
+  font-family: 'SF Pro Display Thin';
+  color: #E7E7F2;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  left: 108px;
+  top: 88px;
+}
+.bookingform select.form-control+.select-arrow {
+  position: absolute;
+  left: 476px;
+  top: 100px;
+  width: 28px;
+  text-align: center;
+  pointer-events: none;
+  background: transparent;
+  height: 28px;
+
+}
+
+.bookingform select.form-control+.select-arrow:after {
+  content: url('../public/downarrow.svg');
+  display: block;
+
+  color: #333;
+  font-size: 14px;
+}
+.bookingform .form-control1{
+  font-family: 'SF Pro Display Regular';
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: url('../public/checkin.svg');
+  background-repeat: no-repeat;
+  background-position: 19.5px 24.65px;
+  box-sizing: border-box;
+  width: 191px;
+  height: 72px;
+
+  border: 1px solid rgba(231, 231, 242, 0.3);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  margin-left: -1px;
+  margin-top: 14px;
+  padding: 37px 0px 15px 60px;
+}
+.bookingform .form-label1 {
+  font-family: 'SF Pro Display Thin';
+  color: #E7E7F2;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  left: 570px;
+  top: 88px;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  color: transparent;
+  height: 72px;
+  width: 30px;
+  cursor: pointer;
+}
+.bookingform .form-control2{
+  font-family: 'SF Pro Display Regular';
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+
+  box-sizing: border-box;
+  width: 151px;
+  height: 72px;
+
+  border: 1px solid rgba(231, 231, 242, 0.3);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  margin-left: -1px;
+  margin-top: 14px;
+  padding: 37px 0px 15px 20px;
+}
+.bookingform .form-label2 {
+  font-family: 'SF Pro Display Thin';
+  color: #E7E7F2;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  left: 722px;
+  top: 88px;
+}
+.bookingform .form-control3{
+  font-family: 'SF Pro Display Regular';
+  font-size: 16px;
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: url('../public/guests.svg');
+  background-repeat: no-repeat;
+  background-position: 19.5px 24.65px;
+  box-sizing: border-box;
+  width: 226px;
+  height: 72px;
+  border-radius: 0px 10px 10px 0px;
+  border: 1px solid rgba(231, 231, 242, 0.3);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+  margin-left: -1px;
+  margin-top: 14px;
+  padding: 37px 0px 15px 60px;
+}
+.bookingform .form-label3 {
+  font-family: 'SF Pro Display Thin';
+  color: #E7E7F2;
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  left: 910px;
+  top: 88px;
+}
+.bookingform select.form-control3+.select-arrow3 {
+
+  position: absolute;
+  left: 1042px;
+  top: 100px;
+  width: 28px;
+  text-align: center;
+  pointer-events: none;
+  background: transparent;
+  height: 28px;
+
+}
+.bookingform select.form-control3+.select-arrow3:after {
+  content: url('../public/downarrow.svg');
+  display: block;
+
+  color: #333;
+  font-size: 14px;
+}
+.bookingform .form-control3:focus {
+
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.bookingform select.form-control3 {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.bookingform .form-control3::-webkit-input-placeholder {
+  color: rgba(51, 51, 51, 0.3);
+}
+
+.bookingform .form-control3:-ms-input-placeholder {
+  color: rgba(51, 51, 51, 0.3);
+}
+
+.bookingform .search-btn {
+  cursor: pointer;
+  position: absolute;
+  left: 1122px;
+  top: 72px;
+  width: 240px;
+  height: 72px;
+  background: #91CB82;
+  border-radius: 10px;
+  border: none ;
+  font-family: 'SF Pro Display Regular';
+  font-size: 18px;
+  line-height: 20px;
+  color: #FFFFFF;
 }
